@@ -1,25 +1,4 @@
-# Facial-Expression-Detection
-
-Facial Expression or Facial Emotion Detector can be used to know whether a person is sad, happy, angry and so on only through his/her face. This Repository can be used to carry out such a task. It uses your WebCamera and then identifies your expression in Real Time. Yeah in real-time!
-
-# PLAN
-
-This is a three step process. In the first, we load the XML file for detecting the presence of faces and then we retrain our network with our image on five diffrent categories. After that, we import the label_image.py program and set up everything in realtime.
-
-# DEPENDENCIES
-
-Hit the following in CMD/Terminal if you don't have already them installed:
-
-    pip install tensorflow
-    pip install opencv-python
-    
-That's it for now.
-
-So let's take a brief look at each step.
-
-## STEP 1 - Implementation of OpenCV HAAR CASCADES
-
-We have used the "Frontal Face Alt" Classifier for detecting the presence of Face in the WebCam. This file is included with this repository. You can find the other classifiers [here](https://github.com/opencv/opencv/tree/master/data/haarcascades).
+We have used the "Frontal Face Alt" Classifier for detecting the presence of Face in the WebCam. This file is included with this repository. Other classifiers can be found at (https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
 Next, we have the task to load this file, which can be found in the label.py) program. E.g.:
 
@@ -44,13 +23,9 @@ That's it for this Step.
 
 ## STEP 3 - Importing the ReTrained Model and Setting Everything Up
 
-Finally, I've put everything under the "label_image.py" file from where you can get evrything.
+Finally, We've put everything under the "label_image.py" file from where you can get evrything.
 Now run the "label.py" program by typing the following in CMD/Terminal:
       
      python label.py
      
 It'll open a new window of OpenCV and then identifies your Facial Expression.
-We are done now!
-
-
-PLEASE DO STAR THIS REPO IF YOU FOUND SOMETHING INTERESTING. <3
