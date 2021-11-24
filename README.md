@@ -1,4 +1,7 @@
-# DEPENDENCIES
+# Emotion Recognition
+Emotion Recognition Detector can be used to know whether a person is sad, happy, angry and so on only through his/her face.
+
+# Dependencies
 
     pip install tensorflow
     pip install opencv-python
