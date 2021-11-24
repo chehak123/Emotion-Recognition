@@ -1,3 +1,8 @@
+# DEPENDENCIES
+
+    pip install tensorflow
+    pip install opencv-python
+    
 ## STEP 1 - Implementation of OpenCV HAAR CASCADES
 We have used the "Frontal Face Alt" Classifier for detecting the presence of Face in the WebCam. This file is included with this repository. Other classifiers can be found at (https://github.com/opencv/opencv/tree/master/data/haarcascades).
 
